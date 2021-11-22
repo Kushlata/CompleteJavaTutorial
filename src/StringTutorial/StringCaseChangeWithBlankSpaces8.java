@@ -6,7 +6,7 @@ package StringTutorial;
  * Case1: string with spaces (We need to apply a check for space)
  * Case2: need to change the case of only first letter
  */
-public class Firstlettercapital8 {
+public class StringCaseChangeWithBlankSpaces8 {
 	public static void main(String args[])
 	{	
 	String x= "learning to get better";
@@ -15,7 +15,7 @@ public class Firstlettercapital8 {
 	
 	for(int i=0; i<size;i++)
 	{
-		if(y[i]!=' ')
+		if(y[i]!=' ') // This will check for spaces
 		{
 			y[i]=(char)(y[i]-32);
 		}
